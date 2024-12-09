@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{688A3786-B85B-47D3-AB18-AF7313D2F481}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Core", "1.Core", "{37F379E2-334A-4D8B-B31B-D4A52175086A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerisTemplate.Core.Contracts", "src\Core\HerisTemplate.Core.Contracts\HerisTemplate.Core.Contracts.csproj", "{958440A3-6BEF-4A17-AB3E-A8707E734E41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerisTemplate.Core.Domain", "src\Core\HerisTemplate.Core.Domain\HerisTemplate.Core.Domain.csproj", "{501938C0-73F8-4A1B-8A69-701C13EC97BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application", "2.Application", "{EB342761-6BA3-4EB5-B15F-BAC1DA6CCFA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerisTemplate.Application", "src\Application\HerisTemplate.Application\HerisTemplate.Application.csproj", "{6ABC57E0-477F-45FF-950A-B0F327DE2CB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerisTemplate.Application.RequestResponse", "src\Application\HerisTemplate.Application.RequestResponse\HerisTemplate.Application.RequestResponse.csproj", "{BC8EBD96-6C52-420A-808E-BEC14C25E18D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Infrastructure", "3.Infrastructure", "{6486A971-EB75-4FE1-A425-CB5CF5D3C2C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerisTemplate.Infrastructure", "src\Infrastructure\HerisTemplate.Infrastructure\HerisTemplate.Infrastructure.csproj", "{F149E463-8BD9-4702-B69D-07AB012DAB99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.EndPoint", "4.EndPoint", "{1D9628F3-65DC-4D10-8B59-92615B07C27E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerisTemplate.BackgroundWorker", "src\EndPoint\HerisTemplate.BackgroundWorker\HerisTemplate.BackgroundWorker.csproj", "{FAC8D1F2-143F-4CBF-A7A7-2098C47FC898}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerisTemplate.EndPoints.WebApi", "src\EndPoint\HerisTemplate.EndPoints.WebApi\HerisTemplate.EndPoints.WebApi.csproj", "{D7E4978A-837A-43FE-A6D0-7B9724CC276D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{958440A3-6BEF-4A17-AB3E-A8707E734E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958440A3-6BEF-4A17-AB3E-A8707E734E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958440A3-6BEF-4A17-AB3E-A8707E734E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958440A3-6BEF-4A17-AB3E-A8707E734E41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{501938C0-73F8-4A1B-8A69-701C13EC97BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{501938C0-73F8-4A1B-8A69-701C13EC97BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{501938C0-73F8-4A1B-8A69-701C13EC97BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{501938C0-73F8-4A1B-8A69-701C13EC97BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ABC57E0-477F-45FF-950A-B0F327DE2CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ABC57E0-477F-45FF-950A-B0F327DE2CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ABC57E0-477F-45FF-950A-B0F327DE2CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ABC57E0-477F-45FF-950A-B0F327DE2CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC8EBD96-6C52-420A-808E-BEC14C25E18D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8EBD96-6C52-420A-808E-BEC14C25E18D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8EBD96-6C52-420A-808E-BEC14C25E18D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8EBD96-6C52-420A-808E-BEC14C25E18D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F149E463-8BD9-4702-B69D-07AB012DAB99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F149E463-8BD9-4702-B69D-07AB012DAB99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F149E463-8BD9-4702-B69D-07AB012DAB99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F149E463-8BD9-4702-B69D-07AB012DAB99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC8D1F2-143F-4CBF-A7A7-2098C47FC898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC8D1F2-143F-4CBF-A7A7-2098C47FC898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC8D1F2-143F-4CBF-A7A7-2098C47FC898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC8D1F2-143F-4CBF-A7A7-2098C47FC898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7E4978A-837A-43FE-A6D0-7B9724CC276D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7E4978A-837A-43FE-A6D0-7B9724CC276D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7E4978A-837A-43FE-A6D0-7B9724CC276D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7E4978A-837A-43FE-A6D0-7B9724CC276D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37F379E2-334A-4D8B-B31B-D4A52175086A} = {688A3786-B85B-47D3-AB18-AF7313D2F481}
+		{958440A3-6BEF-4A17-AB3E-A8707E734E41} = {37F379E2-334A-4D8B-B31B-D4A52175086A}
+		{501938C0-73F8-4A1B-8A69-701C13EC97BB} = {37F379E2-334A-4D8B-B31B-D4A52175086A}
+		{EB342761-6BA3-4EB5-B15F-BAC1DA6CCFA4} = {688A3786-B85B-47D3-AB18-AF7313D2F481}
+		{6ABC57E0-477F-45FF-950A-B0F327DE2CB7} = {EB342761-6BA3-4EB5-B15F-BAC1DA6CCFA4}
+		{BC8EBD96-6C52-420A-808E-BEC14C25E18D} = {EB342761-6BA3-4EB5-B15F-BAC1DA6CCFA4}
+		{6486A971-EB75-4FE1-A425-CB5CF5D3C2C4} = {688A3786-B85B-47D3-AB18-AF7313D2F481}
+		{F149E463-8BD9-4702-B69D-07AB012DAB99} = {6486A971-EB75-4FE1-A425-CB5CF5D3C2C4}
+		{1D9628F3-65DC-4D10-8B59-92615B07C27E} = {688A3786-B85B-47D3-AB18-AF7313D2F481}
+		{FAC8D1F2-143F-4CBF-A7A7-2098C47FC898} = {1D9628F3-65DC-4D10-8B59-92615B07C27E}
+		{D7E4978A-837A-43FE-A6D0-7B9724CC276D} = {1D9628F3-65DC-4D10-8B59-92615B07C27E}
+	EndGlobalSection
+EndGlobal

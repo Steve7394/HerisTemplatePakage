@@ -1,0 +1,11 @@
+{
+    "$schema":"http://json.schemastore.org/template",
+    "author": "Masoud Kargar",
+    "classifications": [ "Common", "Solution", "Heris" ],
+    "identity": "Heris.Default.SolutionTemplate.CSharp",
+    "name": "Heris Default Solution Template",
+    "shortName":"heristemplate",
+    "sourceName": "HerisTemplate",
+    "preferNameDirectory": true,
+    "tags": {"language": "C#","type": "project"}
+}
